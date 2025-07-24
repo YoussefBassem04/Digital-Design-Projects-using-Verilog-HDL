@@ -1,0 +1,144 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/Digital Projects/Asynchronus FIFO
+vasync_fifo
+Z1 !s110 1752921054
+!i10b 1
+!s100 z]7_Xc5eg6^0lTmQV@]FO3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISF0ni=bdi[K?=N<nRV3LN2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1752858054
+8ASYNC_FIFO.v
+FASYNC_FIFO.v
+!i122 0
+L0 1 36
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1752921054.000000
+!s107 tb_async_fifo.v|FIFO_WR.v|FIFO_RD.v|FIFO_MEM_CNTRL.v|DF_SYNC.v|ASYNC_FIFO.v|
+Z6 !s90 ASYNC_FIFO.v|DF_SYNC.v|FIFO_MEM_CNTRL.v|FIFO_RD.v|FIFO_WR.v|tb_async_fifo.v|
+!i113 1
+Z7 tCvgOpt 0
+vasync_fifo_DUT
+R1
+!i10b 1
+!s100 =@WBD9JC^Glh`JQYoc5zH2
+R2
+IJzM3a:15SZoA7aU?UJEMc0
+R3
+R0
+w1752857577
+8tb_async_fifo.v
+Ftb_async_fifo.v
+!i122 0
+L0 1 69
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb_async_fifo.v|FIFO_WR.v|FIFO_RD.v|FIFO_MEM_CNTRL.v|DF_SYNC.v|ASYNC_FIFO.v|
+R6
+!i113 1
+R7
+nasync_fifo_@d@u@t
+vdf_sync
+R1
+!i10b 1
+!s100 ;CjmIkdXnSPA`j];J>8W;2
+R2
+IjP3Z1zh0[_zMNUdnS6zmE3
+R3
+R0
+w1752853351
+8DF_SYNC.v
+FDF_SYNC.v
+!i122 0
+L0 1 22
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vfifo_mem
+R1
+!i10b 1
+!s100 UU62R3hi[Cf4Dm<TmbP[N3
+R2
+ISREF@:YU3n5Y[VDGY00Ma2
+R3
+R0
+w1752856930
+8FIFO_MEM_CNTRL.v
+FFIFO_MEM_CNTRL.v
+!i122 0
+Z9 L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vfifo_rd
+R1
+!i10b 1
+!s100 KR_0fPR>FcDU?UoN^z@Ak1
+R2
+I<Q3_l=39fWjlWSkcK64H51
+R3
+R0
+w1752856340
+8FIFO_RD.v
+FFIFO_RD.v
+!i122 0
+L0 1 25
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vfifo_wr
+R1
+!i10b 1
+!s100 6oN>?8R2eY3L4YcYKUHUZ3
+R2
+I[cbPc]G]HBX?=6:1mNlgm2
+R3
+R0
+w1752852171
+8FIFO_WR.v
+FFIFO_WR.v
+!i122 0
+R9
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7

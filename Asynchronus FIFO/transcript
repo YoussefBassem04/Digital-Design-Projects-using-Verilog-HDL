@@ -1,0 +1,49 @@
+# vsim async_fifo_DUT 
+# Start time: 13:31:01 on Jul 19,2025
+# Loading work.async_fifo_DUT
+# Loading work.async_fifo
+# Loading work.df_sync
+# Loading work.fifo_wr
+# Loading work.fifo_rd
+# Loading work.fifo_mem
+add wave -position insertpoint  \
+sim:/async_fifo_DUT/DATA_WIDTH \
+sim:/async_fifo_DUT/ADDR \
+sim:/async_fifo_DUT/T_rd \
+sim:/async_fifo_DUT/T_wr \
+sim:/async_fifo_DUT/wclk \
+sim:/async_fifo_DUT/w_rst \
+sim:/async_fifo_DUT/w_inc \
+sim:/async_fifo_DUT/rclk \
+sim:/async_fifo_DUT/r_rst \
+sim:/async_fifo_DUT/r_inc \
+sim:/async_fifo_DUT/WR_DATA \
+sim:/async_fifo_DUT/RD_DATA \
+sim:/async_fifo_DUT/EMPTY \
+sim:/async_fifo_DUT/FULL \
+sim:/async_fifo_DUT/i \
+sim:/async_fifo_DUT/test_data
+run -all
+# Time 30: WRITE -> Data = a0 | FULL = 0
+# Time 50: WRITE -> Data = a1 | FULL = 0
+# Time 70: WRITE -> Data = a2 | FULL = 0
+# Time 84: READ -> Data = xx | EMPTY = 0
+# Time 90: WRITE -> Data = a3 | FULL = 0
+# Time 108: READ -> Data = a0 | EMPTY = 0
+# Time 110: WRITE -> Data = a4 | FULL = 0
+# Time 130: WRITE -> Data = a5 | FULL = 0
+# Time 132: READ -> Data = a1 | EMPTY = 0
+# Time 150: WRITE -> Data = a6 | FULL = 0
+# Time 156: READ -> Data = a2 | EMPTY = 0
+# Time 170: WRITE -> Data = a7 | FULL = 0
+# Time 180: READ -> Data = a3 | EMPTY = 0
+# Time 190: WRITE -> Data = a8 | FULL = 0
+# Time 204: READ -> Data = a4 | EMPTY = 0
+# Time 228: READ -> Data = a5 | EMPTY = 0
+# Time 252: READ -> Data = a6 | EMPTY = 0
+# Time 276: READ -> Data = a7 | EMPTY = 0
+# ** Note: $stop    : tb_async_fifo.v(65)
+#    Time: 1 ns  Iteration: 0  Instance: /async_fifo_DUT
+# Break in Module async_fifo_DUT at tb_async_fifo.v line 65
+# End time: 13:33:09 on Jul 19,2025, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 0
