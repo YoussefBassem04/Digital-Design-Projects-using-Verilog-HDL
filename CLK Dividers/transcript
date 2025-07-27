@@ -1,0 +1,16 @@
+# vsim clk_div_DUT 
+# Start time: 14:59:43 on Jul 27,2025
+# Loading work.clk_div_DUT
+# Loading work.CLK_Division
+add wave -position insertpoint  \
+sim:/clk_div_DUT/clk_ref \
+sim:/clk_div_DUT/rst_n \
+sim:/clk_div_DUT/clk_en \
+sim:/clk_div_DUT/div_ratio \
+sim:/clk_div_DUT/clk_out
+run -all
+# ** Note: $stop    : tb_clk_div.v(22)
+#    Time: 215 ps  Iteration: 0  Instance: /clk_div_DUT
+# Break in Module clk_div_DUT at tb_clk_div.v line 22
+# End time: 15:00:00 on Jul 27,2025, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0

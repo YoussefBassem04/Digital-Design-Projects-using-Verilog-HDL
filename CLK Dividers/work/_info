@@ -1,0 +1,170 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/IEEE-Modifier/Session 1
+vclk_div_DUT
+Z1 !s110 1753617578
+!i10b 1
+!s100 ^AMzEE?;aBK:IofKS]bB50
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUD;^45?Y153?0=LNYd2mQ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753617574
+8tb_clk_div.v
+Ftb_clk_div.v
+!i122 34
+Z4 L0 1 26
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1753617578.000000
+!s107 tb_freq_div.v|tb_clk_div.v|freq_div.v|CLK_Divider.v|
+Z7 !s90 CLK_Divider.v|freq_div.v|tb_clk_div.v|tb_freq_div.v|
+!i113 1
+Z8 tCvgOpt 0
+nclk_div_@d@u@t
+vCLK_Division
+R1
+!i10b 1
+!s100 mLi?eW397njP47RS=oK212
+R2
+IVSTZ3Yfkh=Oge=R@;2`zW2
+R3
+R0
+w1753617397
+8CLK_Divider.v
+FCLK_Divider.v
+!i122 34
+L0 1 50
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 tb_freq_div.v|tb_clk_div.v|freq_div.v|CLK_Divider.v|
+R7
+!i113 1
+R8
+n@c@l@k_@division
+vfreq_div
+R1
+!i10b 1
+!s100 0Y3<6[I=]URbUZecFUHDX3
+R2
+IOlGjS`bQlAVQ9f7EVOP>N0
+R3
+R0
+w1753617376
+8freq_div.v
+Ffreq_div.v
+!i122 34
+L0 1 22
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+vfreq_div__sym_DUT
+!s110 1753616834
+!i10b 1
+!s100 hmY47B[noj4kX4OGE;z720
+R2
+I_g`<f3noPMUEU1KS;=?2b2
+R3
+R0
+w1753616797
+Z10 8tb_freq_div_sym.v
+Z11 Ftb_freq_div_sym.v
+!i122 23
+R4
+R5
+r1
+!s85 0
+31
+!s108 1753616834.000000
+Z12 !s107 tb_freq_div_sym.v|tb_freq_dev.v|freq_div_sym.v|freq_div.v|
+Z13 !s90 freq_div.v|freq_div_sym.v|tb_freq_dev.v|tb_freq_div_sym.v|
+!i113 1
+R8
+nfreq_div__sym_@d@u@t
+vfreq_div_DUT
+R1
+!i10b 1
+!s100 81V[ZK<aVnDIJNe;@W5Z[0
+R2
+IdOR9@4XNSQmlB]kNFmozO0
+R3
+R0
+w1753617460
+8tb_freq_div.v
+Ftb_freq_div.v
+!i122 34
+R4
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+nfreq_div_@d@u@t
+vfreq_div_sym
+Z14 !s110 1753616969
+!i10b 1
+!s100 1=Jc2aMeJbf[1>iR`FjD83
+R2
+IcJ_FCFh2GEkM8mcA^31`E1
+R3
+R0
+w1753616959
+8freq_div_sym.v
+Ffreq_div_sym.v
+!i122 28
+L0 1 27
+R5
+r1
+!s85 0
+31
+Z15 !s108 1753616969.000000
+R12
+R13
+!i113 1
+R8
+vfreq_div_sym_DUT
+R14
+!i10b 1
+!s100 0H=ReIC@`dVcUgO^B9j^O1
+R2
+IX0d<EP@Gm;Yo;]WT92njh0
+R3
+R0
+w1753616916
+R10
+R11
+!i122 28
+L0 1 25
+R5
+r1
+!s85 0
+31
+R15
+R12
+R13
+!i113 1
+R8
+nfreq_div_sym_@d@u@t

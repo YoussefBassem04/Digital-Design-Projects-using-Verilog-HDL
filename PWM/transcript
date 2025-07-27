@@ -1,0 +1,18 @@
+# vsim pwm_DUT 
+# Start time: 19:37:30 on Jul 27,2025
+# Loading work.pwm_DUT
+# Loading work.pwm
+# Loading work.timer
+add wave -position insertpoint  \
+sim:/pwm_DUT/R \
+sim:/pwm_DUT/TIMER_BITS \
+sim:/pwm_DUT/T \
+sim:/pwm_DUT/duty_cycle \
+sim:/pwm_DUT/final_value \
+sim:/pwm_DUT/clk_in \
+sim:/pwm_DUT/rst_n \
+sim:/pwm_DUT/pwm_out
+run -all
+# ** Note: $stop    : tb_pwm.v(38)
+#    Time: 5571560 ps  Iteration: 0  Instance: /pwm_DUT
+# Break in Module pwm_DUT at tb_pwm.v line 38
