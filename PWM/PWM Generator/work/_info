@@ -1,0 +1,79 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/Digital Design Projects using Verilog HDL/PWM/PWM Generator
+vpwm_DUT
+Z1 !s110 1753708898
+!i10b 1
+!s100 N=Qngn0Dk27?@iLo_8@`22
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^gL@4_if4Um2DzJN^4hnV1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753707593
+Z4 8tb_pwm.v
+Z5 Ftb_pwm.v
+!i122 12
+L0 1 68
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1753708898.000000
+Z8 !s107 tb_pwm.v|pwm_gen.v|
+Z9 !s90 pwm_gen.v|tb_pwm.v|
+!i113 1
+Z10 tCvgOpt 0
+npwm_@d@u@t
+vpwm_generator
+R1
+!i10b 1
+!s100 1X]>;[0MlZJb8Vk@lk[aD1
+R2
+IN`J4LIe]mVeU75hOmSeX42
+R3
+R0
+w1753708895
+8pwm_gen.v
+Fpwm_gen.v
+!i122 12
+L0 1 35
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtb_PWM_Generator_Verilog
+!s110 1753706390
+!i10b 1
+!s100 Oc<d7=GaT>A_E64QiK5PZ0
+R2
+IdH6RROeCn68QhLQ8YzcYT2
+R3
+R0
+w1753706384
+R4
+R5
+!i122 1
+L0 1 48
+R6
+r1
+!s85 0
+31
+!s108 1753706390.000000
+R8
+R9
+!i113 1
+R10
+ntb_@p@w@m_@generator_@verilog
