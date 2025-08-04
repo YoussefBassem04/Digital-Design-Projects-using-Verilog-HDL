@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/Digital Design Projects using Verilog HDL/Communication Protocols/SPI
+vsingleport_RAM
+Z1 !s110 1754338831
+!i10b 1
+!s100 8IcNJoeS@^oR?cg8Rg>h^2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2<[hO<]]]>HXaUDQ<=:Ga2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1754173458
+8RAM.v
+FRAM.v
+!i122 24
+L0 1 35
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1754338831.000000
+!s107 tb_SPI.v|SPI_WRAPPER.v|SPI_SLAVE.v|RAM.v|
+Z6 !s90 RAM.v|SPI_SLAVE.v|SPI_WRAPPER.v|tb_SPI.v|
+!i113 1
+Z7 tCvgOpt 0
+nsingleport_@r@a@m
+vspi_DUT
+R1
+!i10b 1
+!s100 I?Mal>mzf_4zLZW^0GNEY0
+R2
+I@B@=WaeE53A:9;4kW1;WO2
+R3
+R0
+w1754307867
+8tb_SPI.v
+Ftb_SPI.v
+!i122 24
+Z8 L0 1 93
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 tb_SPI.v|SPI_WRAPPER.v|SPI_SLAVE.v|RAM.v|
+R6
+!i113 1
+R7
+nspi_@d@u@t
+vspi_slave
+R1
+!i10b 1
+!s100 ?>n>[?4m_:h0_LJURdTUE1
+R2
+I3KG8TkfE2LEJfDO<9Djb>0
+R3
+R0
+w1754337749
+8SPI_SLAVE.v
+FSPI_SLAVE.v
+!i122 24
+R8
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vSPI_WRAPPER
+R1
+!i10b 1
+!s100 4CC:Rb9IVZjiUNm?Qa^9o2
+R2
+I=fZ10ZM@]nIo79W`Ub46^3
+R3
+R0
+w1754303779
+8SPI_WRAPPER.v
+FSPI_WRAPPER.v
+!i122 24
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+n@s@p@i_@w@r@a@p@p@e@r
