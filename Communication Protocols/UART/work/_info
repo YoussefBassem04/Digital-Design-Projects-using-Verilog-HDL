@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/Digital Design Projects using Verilog HDL/Communication Protocols/UART
+vpar_DUT
+Z1 !s110 1754438900
+!i10b 1
+!s100 g4zO`;@4eiOQFZCnj5ogf0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IkSEAcCSPD;JUM6AOdP?T20
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1754438898
+8tb_par.v
+Ftb_par.v
+!i122 35
+L0 1 28
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1754438900.000000
+!s107 tb_serializer.v|tb_par.v|Serializer.v|Parity_calc.v|
+Z6 !s90 Parity_calc.v|Serializer.v|tb_par.v|tb_serializer.v|
+!i113 1
+Z7 tCvgOpt 0
+npar_@d@u@t
+vparity_calc
+R1
+!i10b 1
+!s100 4L]V64o@C]VGWILX>03FX0
+R2
+IGG@]=zJVak<4K?3o1=@:C1
+R3
+R0
+w1754438344
+8Parity_calc.v
+FParity_calc.v
+!i122 35
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb_serializer.v|tb_par.v|Serializer.v|Parity_calc.v|
+R6
+!i113 1
+R7
+vser_DUT
+R1
+!i10b 1
+!s100 UX]V:1i[hmU1EdE6MBHda1
+R2
+ID]BF]5gbk]W]gQea2DhAR2
+R3
+R0
+w1754437726
+8tb_serializer.v
+Ftb_serializer.v
+!i122 35
+L0 1 32
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+nser_@d@u@t
+vserializer
+R1
+!i10b 1
+!s100 H^T5il_[n>[T99mUgM:KA3
+R2
+IN<@n>`XXa?oMC_MF`AYnK3
+R3
+R0
+w1754437804
+8Serializer.v
+FSerializer.v
+!i122 35
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
