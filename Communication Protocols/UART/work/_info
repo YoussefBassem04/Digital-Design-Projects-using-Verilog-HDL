@@ -10,25 +10,25 @@ z2
 cModel Technology
 Z0 dC:/Electronics - Analog and Digital/Digital Design Projects using Verilog HDL/Communication Protocols/UART
 vfsm
-Z1 !s110 1754526562
+Z1 !s110 1754582876
 !i10b 1
-!s100 T0^l>:hdK0mB0I@Ik`S=51
+!s100 [QeSQ`A8zYZWlmIO6;Z3<0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Im6U@8aeQk96966>YWTL@<2
+IEaUZoeYNTP628hA9`GJ352
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1754485066
+w1754582365
 8fsm.v
 Ffsm.v
-!i122 40
-L0 1 89
+!i122 76
+L0 1 86
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1754526562.000000
-!s107 Serializer.v|Parity_calc.v|fsm.v|
-Z6 !s90 fsm.v|Parity_calc.v|Serializer.v|
+Z5 !s108 1754582876.000000
+!s107 UART_tx.v|tb_UART_tx.v|Serializer.v|Parity_calc.v|mux_4x1.v|fsm.v|
+Z6 !s90 fsm.v|mux_4x1.v|Parity_calc.v|Serializer.v|tb_UART_tx.v|UART_tx.v|
 !i113 1
 Z7 tCvgOpt 0
 vfsm_DUT
@@ -54,6 +54,28 @@ Z11 !s90 fsm.v|Parity_calc.v|Serializer.v|tb_fsm.v|tb_par.v|tb_serializer.v|
 !i113 1
 R7
 nfsm_@d@u@t
+vmux_4to1
+R1
+!i10b 1
+!s100 =4KMNo0`DVmaPbeGiSRc`3
+R2
+I<_Czm50?26lm3>dAHQ5=03
+R3
+R0
+w1754526735
+8mux_4x1.v
+Fmux_4x1.v
+!i122 76
+L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 UART_tx.v|tb_UART_tx.v|Serializer.v|Parity_calc.v|mux_4x1.v|fsm.v|
+R6
+!i113 1
+R7
 vpar_DUT
 R8
 !i10b 1
@@ -88,53 +110,98 @@ R0
 w1754526002
 8Parity_calc.v
 FParity_calc.v
-!i122 40
+!i122 76
 L0 1 16
 R4
 r1
 !s85 0
 31
 R5
-Z12 !s107 Serializer.v|Parity_calc.v|fsm.v|
+R12
 R6
 !i113 1
 R7
 vser_DUT
-R8
+!s110 1754579674
 !i10b 1
-!s100 UX]V:1i[hmU1EdE6MBHda1
+!s100 i]z_KgRjJYd?ZXjLj>fd]3
 R2
-ID]BF]5gbk]W]gQea2DhAR2
+IjCN9aKHm9Ieoz8nL:jS^f2
 R3
 R0
-w1754437726
+w1754578713
 8tb_serializer.v
 Ftb_serializer.v
-!i122 39
-L0 1 32
+!i122 68
+L0 1 43
 R4
 r1
 !s85 0
 31
-R9
-R10
-R11
+!s108 1754579674.000000
+!s107 UART_tx.v|tb_UART_tx.v|tb_serializer.v|Serializer.v|Parity_calc.v|mux_4x1.v|fsm.v|
+!s90 fsm.v|mux_4x1.v|Parity_calc.v|Serializer.v|tb_serializer.v|tb_UART_tx.v|UART_tx.v|
 !i113 1
 R7
 nser_@d@u@t
 vserializer
 R1
 !i10b 1
-!s100 H^T5il_[n>[T99mUgM:KA3
+!s100 >n7o6obI0aZ5a[Tf7C<XE0
 R2
-IN<@n>`XXa?oMC_MF`AYnK3
+I]Nn?z?PG<g374A3HW=TD<0
 R3
 R0
-w1754437804
+w1754579664
 8Serializer.v
 FSerializer.v
-!i122 40
+!i122 76
 L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+R12
+R6
+!i113 1
+R7
+vuart_DUT
+R1
+!i10b 1
+!s100 ]MSalGf[5zF8VC3HHH6fj3
+R2
+IFV<C]R4@9i:BQBL1_jnAL0
+R3
+R0
+w1754582872
+8tb_UART_tx.v
+Ftb_UART_tx.v
+!i122 76
+L0 1 50
+R4
+r1
+!s85 0
+31
+R5
+R12
+R6
+!i113 1
+R7
+nuart_@d@u@t
+vuart_tx
+R1
+!i10b 1
+!s100 LM:cMdi0h@91HmTeh_a`82
+R2
+IKRDMMUkYXD5d:1SLRR9[N0
+R3
+R0
+w1754579362
+8UART_tx.v
+FUART_tx.v
+!i122 76
+L0 1 20
 R4
 r1
 !s85 0

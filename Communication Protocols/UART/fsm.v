@@ -18,8 +18,9 @@ reg [2:0] ps, ns;
 
 // state memory
 always @(posedge clk or negedge rst_n) begin
-    if (!rst_n)
+    if (!rst_n) begin
         ps <= IDLE;
+    end
     else
         ps <= ns;
 end
@@ -27,10 +28,9 @@ end
 // transion and output logic
 always @(*) begin
     ns = ps;
-    mux_sel = 2'b00;
     ser_en = 0;
     busy = 0;
-
+    mux_sel = 2'b10;
     case (ps)
         IDLE: begin
             if (Data_Valid) begin
@@ -43,7 +43,7 @@ always @(*) begin
 
         START: begin
             busy = 1;
-            mux_sel = 2'b00;
+            mux_sel = 2'b10;
             if (ser_done) begin
                 ns = SEND;
             end else begin
@@ -54,14 +54,11 @@ always @(*) begin
         SEND: begin
             busy = 1;
             mux_sel = 2'b10; // serial data
-            if (ser_done) begin
-                if (PAR_EN)
-                    ns = PARITY;
-                else
-                    ns = STOP;
-            end else begin
+            if (ser_done) 
+                ns = PAR_EN ? PARITY : STOP;
+            else 
                 ser_en = 1;
-            end
+            
         end
 
         PARITY: begin

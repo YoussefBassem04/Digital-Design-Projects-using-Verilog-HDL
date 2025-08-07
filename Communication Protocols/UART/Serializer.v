@@ -1,30 +1,30 @@
 module serializer(
-    input [7:0] P_DATA,
-    input ser_en, clk,
-    output reg ser_done,
-    output reg ser_data
+    input clk,
+    input rst_n,          
+    input ser_en,       
+    input [7:0] P_DATA,     
+    output reg ser_done,     
+    output reg ser_data      
 );
 
+integer counter;        
+reg [7:0] shift_reg;
 
-integer counter;
-reg [7:0] my_reg;
-always @(posedge clk) begin
-    if (!ser_en) begin
-        ser_done <= 0;
-        ser_data <= 0;
-        counter <= 0;
-        my_reg = P_DATA;
+always @(posedge clk, negedge rst_n) begin
+    if (!rst_n) begin
+        shift_reg <= P_DATA;
+        counter   <= 0;
+        ser_data  <= 1'b1; // IDLE line
+        ser_done  <= 1'b0;
     end
-    else begin
-        ser_data <= my_reg[0];
-        my_reg = my_reg >> 1;
-        counter <=  counter + 1;
+    else if (ser_en) begin
+        ser_data  <= shift_reg[0];
+        shift_reg <= shift_reg >> 1;
+        counter   <= counter + 1;
+        ser_done <= (counter >= 7);
     end
-end
-
-always @(*) begin
-    ser_done = (counter >= 8);
-
+    else 
+        shift_reg <= P_DATA;
 end
 
 endmodule
