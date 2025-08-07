@@ -1,5 +1,5 @@
 module parity_calc(
-    input Data_Valid,
+    input PAR_EN,
     input [7:0] P_DATA,
     input PAR_TYPE,
     output reg par_bit
@@ -7,7 +7,7 @@ module parity_calc(
 
 
 always @(*) begin
-    if (!Data_Valid) 
+    if (!PAR_EN) 
         par_bit = 0;
     else 
         par_bit = (PAR_TYPE)? ~(^P_DATA) : (^P_DATA);

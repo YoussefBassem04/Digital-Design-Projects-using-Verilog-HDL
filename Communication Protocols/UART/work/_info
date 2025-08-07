@@ -9,53 +9,98 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Electronics - Analog and Digital/Digital Design Projects using Verilog HDL/Communication Protocols/UART
-vpar_DUT
-Z1 !s110 1754438900
+vfsm
+Z1 !s110 1754526562
 !i10b 1
-!s100 g4zO`;@4eiOQFZCnj5ogf0
+!s100 T0^l>:hdK0mB0I@Ik`S=51
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IkSEAcCSPD;JUM6AOdP?T20
+Im6U@8aeQk96966>YWTL@<2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1754438898
-8tb_par.v
-Ftb_par.v
-!i122 35
-L0 1 28
+w1754485066
+8fsm.v
+Ffsm.v
+!i122 40
+L0 1 89
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1754438900.000000
-!s107 tb_serializer.v|tb_par.v|Serializer.v|Parity_calc.v|
-Z6 !s90 Parity_calc.v|Serializer.v|tb_par.v|tb_serializer.v|
+Z5 !s108 1754526562.000000
+!s107 Serializer.v|Parity_calc.v|fsm.v|
+Z6 !s90 fsm.v|Parity_calc.v|Serializer.v|
 !i113 1
 Z7 tCvgOpt 0
+vfsm_DUT
+Z8 !s110 1754526265
+!i10b 1
+!s100 C840FU^K@^_J?DCNPl]>=1
+R2
+I6gLWSAj[]V_GYY?38:TaQ0
+R3
+R0
+w1754526254
+8tb_fsm.v
+Ftb_fsm.v
+!i122 39
+L0 1 75
+R4
+r1
+!s85 0
+31
+Z9 !s108 1754526265.000000
+Z10 !s107 tb_serializer.v|tb_par.v|tb_fsm.v|Serializer.v|Parity_calc.v|fsm.v|
+Z11 !s90 fsm.v|Parity_calc.v|Serializer.v|tb_fsm.v|tb_par.v|tb_serializer.v|
+!i113 1
+R7
+nfsm_@d@u@t
+vpar_DUT
+R8
+!i10b 1
+!s100 E8lbM?o<ROZIo4JFTBlHP1
+R2
+IUTm6<MBU0<DI?n0g2j_I]3
+R3
+R0
+w1754526019
+8tb_par.v
+Ftb_par.v
+!i122 39
+L0 1 28
+R4
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R7
 npar_@d@u@t
 vparity_calc
 R1
 !i10b 1
-!s100 4L]V64o@C]VGWILX>03FX0
+!s100 Me^`k`Cd4LZ2=bR0G2SdK3
 R2
-IGG@]=zJVak<4K?3o1=@:C1
+I9=WN7;>X8mD]`@zK<Idbl3
 R3
 R0
-w1754438344
+w1754526002
 8Parity_calc.v
 FParity_calc.v
-!i122 35
+!i122 40
 L0 1 16
 R4
 r1
 !s85 0
 31
 R5
-Z8 !s107 tb_serializer.v|tb_par.v|Serializer.v|Parity_calc.v|
+Z12 !s107 Serializer.v|Parity_calc.v|fsm.v|
 R6
 !i113 1
 R7
 vser_DUT
-R1
+R8
 !i10b 1
 !s100 UX]V:1i[hmU1EdE6MBHda1
 R2
@@ -65,15 +110,15 @@ R0
 w1754437726
 8tb_serializer.v
 Ftb_serializer.v
-!i122 35
+!i122 39
 L0 1 32
 R4
 r1
 !s85 0
 31
-R5
-R8
-R6
+R9
+R10
+R11
 !i113 1
 R7
 nser_@d@u@t
@@ -88,14 +133,14 @@ R0
 w1754437804
 8Serializer.v
 FSerializer.v
-!i122 35
+!i122 40
 L0 1 30
 R4
 r1
 !s85 0
 31
 R5
-R8
+R12
 R6
 !i113 1
 R7
