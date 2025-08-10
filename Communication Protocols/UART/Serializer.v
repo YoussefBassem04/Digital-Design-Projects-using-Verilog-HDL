@@ -23,8 +23,10 @@ always @(posedge clk, negedge rst_n) begin
         counter   <= counter + 1;
         ser_done <= (counter >= 7);
     end
-    else 
+    else begin
         shift_reg <= P_DATA;
+        ser_data  <= 1'b1; // IDLE line
+    end
 end
 
 endmodule

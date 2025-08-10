@@ -10,9 +10,9 @@ module fsm (
 
 localparam [2:0] IDLE   = 3'b000,
                  START  = 3'b001,
-                 SEND   = 3'b011,
-                 PARITY = 3'b010,
-                 STOP   = 3'b110;
+                 PARITY = 3'b011,
+                 STOP   = 3'b010;
+   
 
 reg [2:0] ps, ns;
 
@@ -39,31 +39,25 @@ always @(*) begin
                 busy = 1;
                 ser_en = 1;
             end
+            else
+                ns = IDLE;
         end
 
         START: begin
             busy = 1;
-            mux_sel = 2'b10;
+            mux_sel = 2'b10; // Send data
             if (ser_done) begin
-                ns = SEND;
+                ns = PAR_EN? PARITY : STOP;
             end else begin
                 ser_en = 1;
+                ns = START;
             end
-        end
-
-        SEND: begin
-            busy = 1;
-            mux_sel = 2'b10; // serial data
-            if (ser_done) 
-                ns = PAR_EN ? PARITY : STOP;
-            else 
-                ser_en = 1;
-            
         end
 
         PARITY: begin
             busy = 1;
-            mux_sel = 2'b11;
+            mux_sel = 2'b11; // parity bit
+            
             if (ser_done)
                 ns = STOP;
             else
@@ -71,8 +65,8 @@ always @(*) begin
         end
 
         STOP: begin
-            busy = 1;
-            mux_sel = 2'b01;
+            busy = 0;
+            mux_sel = 2'b01; //stop bit
             if (ser_done)
                 ns = IDLE;
             else

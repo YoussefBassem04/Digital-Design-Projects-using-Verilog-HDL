@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 dC:/Electronics - Analog and Digital/Digital Design Projects using Verilog HDL/Communication Protocols/UART
 vfsm
-Z1 !s110 1754582876
+Z1 !s110 1754837623
 !i10b 1
-!s100 [QeSQ`A8zYZWlmIO6;Z3<0
+!s100 Nfk5:GCN<FImK@Sgf6Jle2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IEaUZoeYNTP628hA9`GJ352
+I9RgQFN2VS<;K7U0Rl>XZQ0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1754582365
+w1754837151
 8fsm.v
 Ffsm.v
-!i122 76
-L0 1 86
+!i122 82
+L0 1 80
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1754582876.000000
+Z5 !s108 1754837623.000000
 !s107 UART_tx.v|tb_UART_tx.v|Serializer.v|Parity_calc.v|mux_4x1.v|fsm.v|
 Z6 !s90 fsm.v|mux_4x1.v|Parity_calc.v|Serializer.v|tb_UART_tx.v|UART_tx.v|
 !i113 1
@@ -65,7 +65,7 @@ R0
 w1754526735
 8mux_4x1.v
 Fmux_4x1.v
-!i122 76
+!i122 82
 L0 1 9
 R4
 r1
@@ -110,7 +110,7 @@ R0
 w1754526002
 8Parity_calc.v
 FParity_calc.v
-!i122 76
+!i122 82
 L0 1 16
 R4
 r1
@@ -147,16 +147,16 @@ nser_@d@u@t
 vserializer
 R1
 !i10b 1
-!s100 >n7o6obI0aZ5a[Tf7C<XE0
+!s100 WaFZFSBfH@4UR8[DRo]0`0
 R2
-I]Nn?z?PG<g374A3HW=TD<0
+I8b<j7?@Zmzfb4^Z^f_WII3
 R3
 R0
-w1754579664
+w1754837617
 8Serializer.v
 FSerializer.v
-!i122 76
-L0 1 30
+!i122 82
+L0 1 32
 R4
 r1
 !s85 0
@@ -174,10 +174,10 @@ R2
 IFV<C]R4@9i:BQBL1_jnAL0
 R3
 R0
-w1754582872
+w1754837227
 8tb_UART_tx.v
 Ftb_UART_tx.v
-!i122 76
+!i122 82
 L0 1 50
 R4
 r1
@@ -200,7 +200,7 @@ R0
 w1754579362
 8UART_tx.v
 FUART_tx.v
-!i122 76
+!i122 82
 L0 1 20
 R4
 r1
